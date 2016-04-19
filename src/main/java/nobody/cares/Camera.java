@@ -43,7 +43,7 @@ class CameraFrame extends JFrame {
 		
 		setTitle("CAMERA Workbenches");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setIconImage(Toolkit.getDefaultToolkit().createImage(CameraFrame.class.getResource("cam.gif")));
+		//setIconImage(Toolkit.getDefaultToolkit().createImage(CameraFrame.class.getResource("cam.gif")));
 		
 		cameraEditPane.setContentType("text/html");
 		cameraEditPane.setText("<body bgcolor = \"aqua\" color = \"blue\" align = \"center\"><h1><i>CAMERA Workbenches</i></h1>"
@@ -121,7 +121,7 @@ class CameraFrame extends JFrame {
 		JFrame aboutFrame = new JFrame("About CAMERA");
 		aboutFrame.setSize(new Dimension(450, 400));
 		aboutFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		aboutFrame.setIconImage(Toolkit.getDefaultToolkit().createImage(DMCFrame.class.getResource("cam.gif")));
+		//aboutFrame.setIconImage(Toolkit.getDefaultToolkit().createImage(DMCFrame.class.getResource("cam.gif")));
 	
 		JEditorPane aboutPane = new JEditorPane();
 		aboutPane.setEnabled(false);
