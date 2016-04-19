@@ -121,7 +121,7 @@ class FACFrame extends JFrame {
 		//SET PROPERTIES OF THE MAIN FRAME
 		setTitle("Fully Associative Cache");
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		setIconImage(Toolkit.getDefaultToolkit().createImage(FACFrame.class.getResource("cam.gif")));
+		//setIconImage(Toolkit.getDefaultToolkit().createImage(FACFrame.class.getResource("cam.gif")));
 
 		//CREATE COMPONENTS AND SET THEIR PROPERTIES
 

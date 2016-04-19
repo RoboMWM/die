@@ -127,7 +127,7 @@ class SACFrame extends JFrame {
 		//SET PROPERTIES OF THE MAIN FRAME
 		setTitle("Set Associative Cache");
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		setIconImage(Toolkit.getDefaultToolkit().createImage(SACFrame.class.getResource("cam.gif")));
+		//setIconImage(Toolkit.getDefaultToolkit().createImage(SACFrame.class.getResource("cam.gif")));
 
 		//CREATE COMPONENTS AND SET THEIR PROPERTIES
 

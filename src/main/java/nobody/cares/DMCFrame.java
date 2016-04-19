@@ -105,7 +105,7 @@ class DMCFrame extends JFrame {
 		//SET PROPERTIES OF THE MAIN FRAME
 		setTitle("Direct Mapped Cache");
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		setIconImage(Toolkit.getDefaultToolkit().createImage(DMCFrame.class.getResource("cam.gif")));
+		//setIconImage(Toolkit.getDefaultToolkit().createImage(DMCFrame.class.getResource("cam.gif")));
 	
 		//CREATE COMPONENTS AND SET THEIR PROPERTIES
 
