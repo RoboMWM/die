@@ -4,7 +4,6 @@
 .mtj.tmp/
 
 # Package Files #
-*.jar
 *.war
 *.ear
 
@@ -63,6 +62,8 @@ tasks.xml
 .idea/libraries
 .idea/copyright
 out/
-target/
+target/maven-archiver
+!target/cares.jar
+!cares.jar
 *.MF
 *.name
